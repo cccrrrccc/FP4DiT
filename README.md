@@ -8,6 +8,9 @@
         <img src="https://img.shields.io/badge/Diffusers-0.29-red" /></a>
 <p/>
 
+## 🚀 News
+ Our paper "FP4DiT: Towards Effective Floating Point Quantization for Diffusion Transformers" has been accepted by **Transactions on Machine Learning Research (TMLR)**!
+
 ## Overview
 The code of FP4DiT is developed on top of the following repos:
 1. Q-diffusion (ICCV 2023; https://github.com/Xiuyu-Li/q-diffusion), which performs quantization calibration and inference on diffusion models.
@@ -62,8 +65,9 @@ If you find our work useful, we kindly ask that you cite our paper:
 ```
 @article{chen2025fp4dit,
   title={FP4DiT: Towards Effective Floating Point Quantization for Diffusion Transformers},
-  author={Chen, Ruichen and Mills, Keith G and Niu, Di},
-  journal={arXiv preprint arXiv:2503.15465},
-  year={2025}
+  author={Chen, Ruichen and Mills, Keith G. and Niu, Di},
+  journal={Transactions on Machine Learning Research},
+  year={2025},
+  url={[https://openreview.net/forum?id=CcnH4mSQbP](https://openreview.net/forum?id=CcnH4mSQbP)}
 }
 ```
